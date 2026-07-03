@@ -34,7 +34,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     browserName: 'chromium',
-    headless: false,
+    headless: true,
     channel: 'msedge',
     expect: {
       timeout: 10000
